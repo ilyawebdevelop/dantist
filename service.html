@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Лечение зубов</title>
+</head>
+
+<body>	
+	<div class="wrapper">
+		<!-- Header -->
+<header class="header" id="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-lg-3">
+          <a class="logo" href="index.html">
+            <img src="img/header/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="col-6 col-lg-9">
+          <div class="header__contacts d-flex align-items-center justify-content-end">
+            <a class="header__tel d-none d-lg-block" href="tel:+79872179999">+7 (987) 217-99-99</a>
+            <form class="header__search" action="#">
+              <a class="header__search-link" href="#">
+                <img src="img/icons/search.svg" alt="search-icon">
+              </a>
+            </form>
+             <a class="header__place d-none d-lg-inline-flex d-inline-flex align-items-center" href="#" target="_blank">
+               <img src="img/icons/animal.svg" alt="btn-icon">
+               г. Казань, Ибрагимова 58
+             </a>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger d-flex d-lg-none" id="toggle">
+              <div class="top-bun"></div>
+              <div class="meat"></div>
+              <div class="bottom-bun"></div>
+            </div>
+
+          </div><!-- /header__contacts -->          
+        </div>
+      </div>
+    </div>
+  </div><!-- /header__top -->
+  <div class="header__bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <nav class="header__nav">
+            <ul class="header__nav-list d-block d-lg-flex">
+              <li class="header__nav-item active">
+                <a href="index.html">
+                  Главная
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="services.html">
+                  Услуги
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">
+                  Цены
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="doctors.html">
+                  Врачи
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">
+                  Работы
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">
+                  Акции
+                </a>
+              </li>
+              <li class="header__nav-item item-152">
+                <a href="#">
+                  Пациентам
+                </a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Все направления</a>              
+                  </li>
+                  <li>
+                    <a href="doctors.html">Стоматологи</a>                  
+                  </li>
+                  <li>
+                    <a href="doctors.html">Хирурги</a>
+                  </li>
+                  <li>
+                    <a href="doctors.html">Терапевты</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a class="header__tel d-block d-lg-none text-center" href="tel:+79872179999">+7 (987) 217-99-99</a>
+            <a class="header__place d-inline-flex d-lg-none align-items-center justify-content-center" href="#" target="_blank">
+              <img src="img/icons/animal.svg" alt="btn-icon">
+              г. Казань, Ибрагимова 58
+            </a>
+            <button class="btn-reset header__btn-order btn d-block d-lg-none" data-graph-path="modal-order">
+              Записаться онлайн
+            </button>
+          </nav>
+        </div>
+        <div class="col-lg-3 text-end">
+          <div class="header__btn-wrapper">
+            <button class="btn-reset header__btn-order btn d-none d-lg-inline-flex" data-graph-path="modal-order">
+              Записаться онлайн
+            </button>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+		<main class="main main_service">
+			<!-- service -->
+<section class="service" id="service">
+  <!-- Breadcrumps-third -->
+<section class="breadcrumps d-none d-lg-block" id="breadcrumps">
+  <div class="container">
+    <div class="breadcrumps__wrapper">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>   
+       <a href="#">Лечение зубов</a>        
+    </div>
+  </div>
+</section>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="service__title-wrapper d-flex justify-content-between">
+        <h2 class="service__title">
+          Лечение кариеса зубов
+        </h2>
+        <div class="service__title-btns">
+          <a href="doctors.html">Наши врачи</a>
+          <a href="#prices">Цены</a>
+          <a href="#reviews">Отзывы</a>
+        </div>
+      </div>
+    </div>
+    <div class="service__wrapper">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="service__offer">
+            <h2 class="service__offer-title">
+              Особенности лечения зубов в нашей клинике
+            </h2>
+            <p class="service__offer-descr">
+              Быстро и недорого лечим все заболевания полости рта, которые возникают из-за плохой экологии,
+              некачественной воды, однообразного рациона, элементарного несоблюдения правил гигиены.
+            </p>
+            <a href="#" class="service__offer-btn">
+              Выбрать специалиста
+              <span>-></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="service__img d-none d-lg-block">
+            <img src="img/service/service-img.png" alt="image">
+            <div class="service__img-logo">
+              <img src="img/service/logo-blue.svg" alt="logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ul class="service__list d-flex">
+          <li><a href="#">Врачи со стажем более 5 лет</a></li>
+          <li><a href="#">Лечение без боли с гарантией качества</a></li>
+          <li><a href="#">Бесплатная консультация</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="service__about">
+          <p>
+            <span>Кариес – </span>
+            это постепенное разрушение эмали и твердых тканей зуба (дентина), приводящее к образованию
+            кариозной полости. В зависимости от степени повреждения зуба различается поверхностный, средний и глубокий
+            кариес.
+          </p>
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+			<!-- content -->
+<section class="content" id="content">
+  <div class="container">
+    <div class="row">
+      <h2 class="content__title">
+        Важный заголовок
+      </h2>
+      <div class="content__text">
+        <p>
+          Учитывая ключевые сценарии поведения, высокотехнологичная концепция общественного уклада создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса системы массового участия. Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Внезапно, диаграммы связей, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
+        </p>
+        <p>
+          Учитывая ключевые сценарии поведения, высокотехнологичная концепция общественного уклада создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса системы массового участия. Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Внезапно, диаграммы связей, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>	
+			<!-- callback -->
+<section class="callback" id="callback">
+  <div class="container callback__container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <form action="#" class="callback-form">
+          <div class="callback-form__title">
+            Хотите, мы&nbsp;Вам перезвоним?
+          </div>
+          <p class="callback-form__descr">
+            Оставьте заявку и&nbsp;мы&nbsp;подробно ответим
+            на&nbsp;все Ваши вопросы!            
+          </p>
+          <div class="callback-form__inputs-wrapper">
+            <div class="input-wrapper">
+              <input type="text" placeholder="Как вас зовут?">
+            </div>
+           <div class="input-wrapper">
+            <input type="tel" placeholder="Ваш номер телефона?">
+           </div>            
+          </div><!-- /callback-form__inputs-wrapper -->   
+          <div class="agreements d-block d-xl-flex align-items-center">
+            <button class="agreements__btn btn" type="submit">Обратный звонок</button>
+            <div class="agreements__text">
+              Нажимая на кнопку, вы даете согласие на <span>обработку своих персональных данных</span>
+            </div>
+          </div>       
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="callback__img d-none d-lg-block">
+          <img src="img/services/service-tooth.png" alt="callback-image">
+        </div>
+      </div>
+    </div>
+  </div><!-- /container -->
+</section>
+			<!-- content -->
+<section class="content" id="content">
+  <div class="container">
+    <div class="row">
+      <h2 class="content__title">
+        Важный заголовок
+      </h2>
+      <div class="content__text">
+        <p>
+          Учитывая ключевые сценарии поведения, высокотехнологичная концепция общественного уклада создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса системы массового участия. Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Внезапно, диаграммы связей, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
+        </p>
+        <p>
+          Учитывая ключевые сценарии поведения, высокотехнологичная концепция общественного уклада создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса системы массового участия. Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Внезапно, диаграммы связей, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>	
+			<!-- team-slider -->
+<section class="team-slider" id="team-slider">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="team-slider__title">
+          Наши специалисты
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="container team-slider__container">
+    <div class="row">
+      <div class="col">
+        <div class="swiper team-slider__slider">
+          <div class="swiper-wrapper">
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Главный врач
+  </h3>
+  <span class="doctor-card__descr">
+    8 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Алина Рафиковна
+  </div>
+  <div class="doctor-card__female">
+    Файзрахманова
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Стоматолог
+  </h3>
+  <span class="doctor-card__descr">
+    8 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Диана Викторовна
+  </div>
+  <div class="doctor-card__female">
+    Алексеева
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Хирург
+  </h3>
+  <span class="doctor-card__descr">
+    12 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Генадий Андреевич
+  </div>
+  <div class="doctor-card__female">
+    Саватеев
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Стоматолог
+  </h3>
+  <span class="doctor-card__descr">
+    12 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Альфир Рауфович
+  </div>
+  <div class="doctor-card__female">
+    Гинзбург
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Хирург
+  </h3>
+  <span class="doctor-card__descr">
+    12 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Генадий Андреевич
+  </div>
+  <div class="doctor-card__female">
+    Саватеев
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Хирург
+  </h3>
+  <span class="doctor-card__descr">
+    12 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Генадий Андреевич
+  </div>
+  <div class="doctor-card__female">
+    Саватеев
+  </div>
+</div><!-- /swiper-slide -->
+            <!-- doctor-card -->
+<div class="swiper-slide team-slider__slide doctor-card">
+  <h3 class="doctor-card__title">
+    Хирург
+  </h3>
+  <span class="doctor-card__descr">
+    12 лет практики
+  </span>
+  <div class="doctor-card__img">
+    <img src="img/team/team-img1.png" alt="team-image">
+    <div class="doctor-card__btn-wrapper">
+      <a href="doctor.html" class="doctor-card__btn-about btn">О специалистке</a>
+      <button class="btn-reset doctor-card__btn-order btn" data-graph-path="modal-doctor">Записаться на прием</button>
+    </div>
+  </div>
+  <div class="doctor-card__name">
+    Генадий Андреевич
+  </div>
+  <div class="doctor-card__female">
+    Саватеев
+  </div>
+</div><!-- /swiper-slide -->
+          </div>
+        </div><!-- /swiper -->
+      </div>
+    </div>
+    <div class="reviews-slider__navigation-wrapper">
+      <div class="team-slider__navigation-prev navigation-arrow navigation-prev">
+        <!-- <img src="img/icons/arrow-right-blue.svg" alt="arrow-prev"> -->
+      </div>
+      <div class="team-slider__navigation-next navigation-arrow navigation-next">
+        <!-- <img src="img/icons/arrow-left-blue.svg" alt="arrow-next"> -->
+      </div>    
+    </div>    
+  </div><!-- /container -->
+  <!-- <div class="team-slider__blur">
+    <img src="img/team/slider-blur.png" alt="blur">
+  </div> -->
+</section>
+			<!-- prices -->
+<section class="prices" id="prices">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="prices__title">
+          Стоимость
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="prices__wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="prices__table-title">
+            Стоимость лечения кариеса
+          </div>
+          <div class="prices__table">
+            <div class="prices__table-name prices-row d-flex">
+              <div class="prices__table-col_first prices__table-col">Наименование услуги</div>
+              <div class="prices__table-col_second prices__table-col">Цена, руб.</div>
+            </div>
+            <div class="prices-row d-flex">
+              <div class="prices__table-col_first prices__table-col">Прием стоматолога - терапевта</div>
+              <div class="prices__table-col_second prices__table-col">1 500 руб.</div>
+            </div>
+            <div class="prices-row d-flex">
+              <div class="prices__table-col_first prices__table-col">Прием стоматолога - терапевта</div>
+              <div class="prices__table-col_second prices__table-col">1 500 руб.</div>
+            </div>
+            <div class="prices-row d-flex">
+              <div class="prices__table-col_first prices__table-col">Прием стоматолога - терапевта</div>
+              <div class="prices__table-col_second prices__table-col">1 500 руб.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+			<!-- callback -->
+<section class="callback" id="callback">
+  <div class="container callback__container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <form action="#" class="callback-form">
+          <div class="callback-form__title">
+            Хотите, мы&nbsp;Вам перезвоним?
+          </div>
+          <p class="callback-form__descr">
+            Оставьте заявку и&nbsp;мы&nbsp;подробно ответим
+            на&nbsp;все Ваши вопросы!            
+          </p>
+          <div class="callback-form__inputs-wrapper">
+            <div class="input-wrapper">
+              <input type="text" placeholder="Как вас зовут?">
+            </div>
+           <div class="input-wrapper">
+            <input type="tel" placeholder="Ваш номер телефона?">
+           </div>            
+          </div><!-- /callback-form__inputs-wrapper -->   
+          <div class="agreements d-block d-xl-flex align-items-center">
+            <button class="agreements__btn btn" type="submit">Обратный звонок</button>
+            <div class="agreements__text">
+              Нажимая на кнопку, вы даете согласие на <span>обработку своих персональных данных</span>
+            </div>
+          </div>       
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="callback__img d-none d-lg-block">
+          <img src="img/services/service-tooth.png" alt="callback-image">
+        </div>
+      </div>
+    </div>
+  </div><!-- /container -->
+</section>
+			<!-- reviews -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="reviews__title-wrapper d-flex justify-content-between">
+          <h2 class="reviews__title">
+            Отзывы
+          </h2>
+          <button class="btn-reset reviews__btn btn" data-graph-path="modal-reviews">
+            <img src="img/icons/reviews-btn-icon.svg" alt="btn-icon">
+            Оставить отзыв
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container reviews__container">
+    <div class="row">
+      <div class="col">
+        <div class="swiper reviews__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide reviews__slide">
+              <div class="reviews__slide-heading d-flex justify-content-between">
+                <div class="reviews__slide-heading-img">
+                  <img src="img/icons/reviews-map-icon.svg" alt="icon">
+                </div>
+                <div class="reviews__slide-heading-date">
+                  22.05.2022
+                </div>
+              </div>
+              <div class="reviews__slide-title">
+                Спасибо доктору!
+              </div>
+              <p class="reviews__slide-text">
+                Уже не один год пользуюсь услугами стоматологии. В очередной раз убедилась что эта лучшая клиника ! Хочу
+                выразить особую благодарность врачу- ортопеду, за профессионализм, чуткость, понимание , и отличную
+                работу !!! Отдельное спасибо зубному технику, за красивые зубы)
+              </p>
+              <div class="reviews__slide-name">
+                Хемади Наталья
+              </div>
+              <div class="reviews__slide-cat">
+                <span>Услуги:</span>
+                <span>Имплантация зубов</span>
+              </div>
+              <a href="#" class="reviews__slide-btn btn">Перейти к отзыву -></a>
+            </div><!-- /swiper-slide -->
+            <div class="swiper-slide reviews__slide">
+              <div class="reviews__slide-heading d-flex justify-content-between">
+                <div class="reviews__slide-heading-img">
+                  <img src="img/icons/reviews-gis-icon.svg" alt="icon">
+                </div>
+                <div class="reviews__slide-heading-date">
+                  14.05.2022
+                </div>
+              </div>
+              <div class="reviews__slide-title">
+                Отличная клиника
+              </div>
+              <p class="reviews__slide-text">
+                Уже не один год пользуюсь услугами стоматологии. В очередной раз убедилась что эта лучшая клиника ! Хочу
+                выразить особую благодарность врачу- ортопеду.
+              </p>
+              <div class="reviews__slide-name">
+                Виктор Петров
+              </div>
+              <div class="reviews__slide-cat">
+                <span>Услуги:</span>
+                <span>Консультация</span>
+              </div>
+              <a href="#" class="reviews__slide-btn btn">Перейти к отзыву -></a>
+            </div><!-- /swiper-slide -->
+            <div class="swiper-slide reviews__slide">
+              <div class="reviews__slide-heading d-flex justify-content-between">
+                <div class="reviews__slide-heading-img">
+                  <img src="img/icons/reviews-profi-icon.svg" alt="icon">
+                </div>
+                <div class="reviews__slide-heading-date">
+                  12.05.2022
+                </div>
+              </div>
+              <div class="reviews__slide-title">
+                МегаДент прекрасен
+              </div>
+              <p class="reviews__slide-text">
+                Уже не один год пользуюсь услугами стоматологии. В очередной раз убедилась что эта лучшая клиника ! Хочу
+                выразить особую благодарность врачу- ортопеду, за профессионализм.
+              </p>
+              <div class="reviews__slide-name">
+                Малика Музипова
+              </div>
+              <div class="reviews__slide-cat">
+                <span>Услуги:</span>
+                <span>Пломбирование зубов</span>
+              </div>
+              <a href="#" class="reviews__slide-btn btn">Перейти к отзыву -></a>
+            </div><!-- /swiper-slide -->
+            <div class="swiper-slide reviews__slide">
+              <div class="reviews__slide-heading d-flex justify-content-between">
+                <div class="reviews__slide-heading-img">
+                  <img src="img/icons/reviews-map-icon.svg" alt="icon">
+                </div>
+                <div class="reviews__slide-heading-date">
+                  22.05.2022
+                </div>
+              </div>
+              <div class="reviews__slide-title">
+                Спасибо доктору!
+              </div>
+              <p class="reviews__slide-text">
+                Уже не один год пользуюсь услугами стоматологии. В очередной раз убедилась что эта лучшая клиника ! Хочу
+                выразить особую благодарность врачу- ортопеду, за профессионализм, чуткость, понимание , и отличную
+                работу !!! Отдельное спасибо зубному технику, за красивые зубы)
+              </p>
+              <div class="reviews__slide-name">
+                Хемади Наталья
+              </div>
+              <div class="reviews__slide-cat">
+                <span>Услуги:</span>
+                <span>Имплантация зубов</span>
+              </div>
+              <a href="#" class="reviews__slide-btn btn">Перейти к отзыву -></a>
+            </div><!-- /swiper-slide -->
+            <div class="swiper-slide reviews__slide">
+              <div class="reviews__slide-heading d-flex justify-content-between">
+                <div class="reviews__slide-heading-img">
+                  <img src="img/icons/reviews-profi-icon.svg" alt="icon">
+                </div>
+                <div class="reviews__slide-heading-date">
+                  12.05.2022
+                </div>
+              </div>
+              <div class="reviews__slide-title">
+                МегаДент прекрасен
+              </div>
+              <p class="reviews__slide-text">
+                Уже не один год пользуюсь услугами стоматологии. В очередной раз убедилась что эта лучшая клиника ! Хочу
+                выразить особую благодарность врачу- ортопеду, за профессионализм.
+              </p>
+              <div class="reviews__slide-name">
+                Малика Музипова
+              </div>
+              <div class="reviews__slide-cat">
+                <span>Услуги:</span>
+                <span>Пломбирование зубов</span>
+              </div>
+              <a href="#" class="reviews__slide-btn btn">Перейти к отзыву -></a>
+            </div><!-- /swiper-slide -->
+          </div><!-- /swiper-wrapper -->
+        
+        </div><!-- /swiper -->
+        <a href="#" class="reviews__btn-more btn">
+          Смотреть еще
+        </a>
+      </div><!-- /col -->
+    </div><!-- /row -->
+    <div class="reviews-slider__navigation-wrapper">
+      <div class="reviews-slider__navigation-prev navigation-arrow navigation-prev">
+        <!-- <img src="img/icons/arrow-right-blue.svg" alt="arrow-prev"> -->
+      </div>
+      <div class="reviews-slider__navigation-next navigation-arrow navigation-next">
+        <!-- <img src="img/icons/arrow-left-blue.svg" alt="arrow-next"> -->
+      </div>
+    </div>
+   
+  </div><!-- /container -->
+  <div class="reviews__blur">
+    <img src="img/reviews/reviews-blur.png" alt="blur">
+  </div>
+</section>
+		</main>
+		<!-- Footer -->
+<footer class="footer" id="footer">
+  <div class="footer__empty">
+  </div>
+  <div class="footer__top ">
+    <div class="container footer__top-container">
+      <div class="row">
+        <div class="col-md-5 col-xl-3">
+          <div class="footer__left d-flex justify-content-center align-items-center">
+            <img src="img/header/logo.svg" alt="logo">
+          </div>
+        </div>
+        <div class="col-md-7 col-xl-4">
+          <nav class="footer__nav">
+            <h3 class="footer__nav-title">
+              Навигация
+            </h3>
+            <div class="footer__nav-wrapper">
+              <ul class="footer__nav-list">
+                <li><a href="#">О клинике</a></li>
+                <li><a href="#">Врачи</a></li>
+                <li><a href="#">Вопросы и ответы</a></li>
+              </ul>
+              <ul class="footer__nav-list">
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Лицензии</a></li>
+              </ul>
+            </div>
+            <a class="footer__nav-tel" href="tel:79872179999">+7 (987) 217‒99‒99</a>
+            <div class="footer__nav-btn-wrapper d-block d-sm-flex justify-content-start justify-content-xl-between">
+              <button class="footer__nav-top">
+                Наверх
+                <img src="img/icons" alt="">
+                <span>-></span>
+              </button>
+              <a class="footer__nav-mail" href="mailto:megadent@yandex.ru">megadent@yandex.ru</a>
+            </div>
+            <div class="footer__nav-arrow">
+              <img src="img/icons/arrow-rotate-gray.svg" alt="">
+            </div>
+          </nav>
+        </div>
+        <div class="col-xl-5">
+          <div class="footer__nav-right">
+            <div class="footer__right">
+              <div class="footer__right-title">
+                НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+              </div>
+              <p class="footer__right-text">
+                Обращаем Ваше внимание на&nbsp;то, что данный интернет-сайт носит исключительно информационный характер
+                и&nbsp;ни
+                при каких условиях не&nbsp;является публичной офертой. Для получения подробной информации
+                о&nbsp;стоимости,
+                наименовании и&nbsp;сроках оказания услуг, пожалуйста, обращайтесь по&nbsp;контактным телефонам.
+                Конкретный
+                перечень услуг и&nbsp;порядок их&nbsp;предоставления определяется в&nbsp;договоре оказания услуг,
+                оформляемым между
+                клиникой и&nbsp;пациентом.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom d-flex justify-content-between align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="copyright">© MEGA DENT 2022</div>          
+        </div>
+        <div class="col-md-9">
+          <div class="politics d-block d-sm-flex justify-content-center justify-content-md-end">
+            <a class="politics-item" href="#">Политика конфиденциальности | </a>
+            <a class="politics-item" href="#"> Политика обработки персональных данных</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</footer>
+		<!-- modal -->
+<div class="graph-modal">
+  <div class="graph-modal__container modal-order" role="dialog" aria-modal="true" data-graph-target="modal-order"><!-- /modal-order -->
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <div class="modal-order__title">
+        Хотите, мы Вам перезвоним?
+      </div>
+      <p class="modal-order__descr">
+        Оставьте заявку и&nbsp;мы&nbsp;подробно ответим
+        на&nbsp;все Ваши вопросы!
+      </p>
+      <form action="#" class="modal-order__form order-form">
+        <div class="order-form__wrapper d-flex justify-content-center justify-content-lg-between">
+          <div class="input-wrapper">
+            <input type="text" placeholder="Как вас зовут?">
+          </div>
+          <div class="input-wrapper">
+            <input type="tel" placeholder="Ваш номер телефона">
+          </div>
+        </div>
+        <button class="modal-order__form-btn" type="submit">Обратный звонок</button>
+        <div class="agreements text-center">
+          Нажимая на кнопку, вы даете согласие
+          на <span>обработку своих персональных данных</span> 
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal-doctor" role="dialog" aria-modal="true" data-graph-target="modal-doctor"><!-- /modal-doctor -->
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <div class="modal-doctor__logo">
+        <img src="img/header/logo.svg" alt="logo">
+      </div>
+      <div class="modal-doctor__name">
+        Запись на прием к:
+        <span>Саватееву Г. А.</span>
+      </div>
+      <form action="#" class="modal-doctor__form doctor-form">
+        
+        <div class="doctor-form__inputs">
+          <div class="doctor-form__input-wrapper">
+            <label for="doctor-form__input-name">Ваше имя</label>
+            <input type="text" id="doctor-form__input-name" placeholder="Введите ваше имя">
+          </div>
+          <div class="doctor-form__input-wrapper">
+            <label for="doctor-form__input-tel">Ваш номер</label>
+            <input type="text" id="doctor-form__input-tel" placeholder="8 XXX XXX XX XX">
+          </div>
+          <div class="doctor-form__input-wrapper">
+            <label for="doctor-form__input-text">Коментарий</label>
+            <input type="text" id="doctor-form__input-text" placeholder="Нам стоит что то знать?">
+          </div>
+        </div>
+
+        <button class="modal-order__form-btn" type="submit">Записаться -></button>
+        <div class="agreements text-center">
+          Нажимая на кнопку, вы даете согласие
+          на <span>обработку своих персональных данных</span> 
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal-reviews" role="dialog" aria-modal="true" data-graph-target="modal-reviews"><!-- /modal-reviews -->
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <div class="modal-reviews__logo">
+        <img src="img/header/logo.svg" alt="logo">
+      </div>
+      <div class="modal-reviews__title text-center">
+        Спасибо за вашу обратную связь!
+        <span>Выберите платформу:</span>        
+      </div>
+      <form action="#" class="modal-reviews__form reviews-form">
+        <button class="reviews-form__btn">
+          <img src="img/icons/modal-yandex.svg" alt="icon">
+        </button>
+        <button class="reviews-form__btn">
+          <img src="img/icons/modal-gis.svg" alt="icon">
+        </button>
+        <button class="reviews-form__btn">
+          <img src="img/icons/modal-google.svg" alt="icon">
+        </button>
+        <button class="reviews-form__btn">
+          <img src="img/icons/modal-profi.svg" alt="icon">
+          <span>profi.medic</span>          
+        </button>
+        <div class="agreements text-center">
+          Нажимая на кнопку, вы даете согласие
+          на <span>обработку своих персональных данных</span> 
+        </div>
+      </form>    
+ 
+    </div>
+  </div>
+
+</div>
+	</div>
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
+
+
+
+
